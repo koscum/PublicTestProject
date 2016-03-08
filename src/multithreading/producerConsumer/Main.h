@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MULTITHREADING_PRODUCERCONSUMER_MAIN_H
+#define MULTITHREADING_PRODUCERCONSUMER_MAIN_H
 
 #include "../Buffer.h"
 #include "Consumer.h"
@@ -24,4 +24,4 @@ namespace multithreading
 	}
 }
 
-#endif // MAIN_H
+#endif // MULTITHREADING_PRODUCERCONSUMER_MAIN_H

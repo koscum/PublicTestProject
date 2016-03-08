@@ -1,5 +1,5 @@
-#ifndef BUFFER_H
-#define BUFFER_H
+#ifndef MULTITHREADING_BUFFER_H
+#define MULTITHREADING_BUFFER_H
 
 #include <queue>
 #include <mutex>
@@ -30,4 +30,4 @@ namespace multithreading
 
 }
 
-#endif // BUFFER_H
+#endif // MULTITHREADING_BUFFER_H

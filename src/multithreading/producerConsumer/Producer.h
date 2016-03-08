@@ -1,5 +1,5 @@
-#ifndef PRODUCER_H
-#define PRODUCER_H
+#ifndef MULTITHREADING_PRODUCERCONSUMER_PRODUCER_H
+#define MULTITHREADING_PRODUCERCONSUMER_PRODUCER_H
 
 #include "../Buffer.h"
 
@@ -41,4 +41,4 @@ namespace multithreading
 	}
 }
 
-#endif // PRODUCER_H
+#endif // MULTITHREADING_PRODUCERCONSUMER_PRODUCER_H
