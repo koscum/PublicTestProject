@@ -1,8 +1,8 @@
 #include "ProducerConsumerProject.h"
 
-multithreading::producerConsumer::ProducerConsumerProject::ProducerConsumerProject()
+multithreading::producerConsumer::ProducerConsumerProject::ProducerConsumerProject():
+	TestProject("Multithreading/ProducerConsumer")
 {
-	mTitle = "Multithreading/ProducerConsumer";
 }
 
 multithreading::producerConsumer::ProducerConsumerProject::~ProducerConsumerProject()

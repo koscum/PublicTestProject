@@ -14,6 +14,8 @@ public:
 	std::string getTitle();
 
 protected:
+	TestProject(std::string title);
+
 	std::string mTitle;
 };
 

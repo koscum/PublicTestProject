@@ -4,6 +4,11 @@ TestProject::TestProject()
 {
 }
 
+TestProject::TestProject(std::string title):
+	mTitle(title)
+{
+}
+
 TestProject::~TestProject()
 {
 }

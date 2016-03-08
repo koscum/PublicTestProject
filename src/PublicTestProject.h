@@ -3,6 +3,7 @@
 
 #include "TestProject.h" // Base class: Main
 #include "multithreading/producerConsumer/ProducerConsumerProject.h"
+#include "gui/gtkmm3/Gtkmm3Project.h"
 
 #include <algorithm>
 #include <vector>

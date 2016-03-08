@@ -3,6 +3,7 @@
 PublicTestProject::PublicTestProject()
 {
 	mTestProjects.insert(mTestProjects.end(), new multithreading::producerConsumer::ProducerConsumerProject());
+	mTestProjects.insert(mTestProjects.end(), new gui::gtkmm3::Gtkmm3Project());
 }
 
 PublicTestProject::~PublicTestProject()
