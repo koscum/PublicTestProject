@@ -1,14 +1,15 @@
-#include "Main.h"
+#include "ProducerConsumerProject.h"
 
-multithreading::producerConsumer::Main::Main()
+multithreading::producerConsumer::ProducerConsumerProject::ProducerConsumerProject()
+{
+	mTitle = "Multithreading/ProducerConsumer";
+}
+
+multithreading::producerConsumer::ProducerConsumerProject::~ProducerConsumerProject()
 {
 }
 
-multithreading::producerConsumer::Main::~Main()
-{
-}
-
-int multithreading::producerConsumer::Main::main(int argc, char **argv)
+int multithreading::producerConsumer::ProducerConsumerProject::main(int argc, char **argv)
 {
 	std::cout << "ProducerConsumer" << '\n';
 
