@@ -43,7 +43,9 @@ int PublicTestProject::main(int argc, char** argv)
 		{
 			::TestProject *testProject = mTestProjects[selection - 1];
 
-			std::cout << testProject->getTitle() << " returned with exit code " << testProject->main(argc, argv) << "." << '\n';
+			int exitCode = testProject->main(argc, argv);
+
+			std::cout << testProject->getTitle() << " returned with exit code " << exitCode << "." << '\n';
 		}
 	}
 }
